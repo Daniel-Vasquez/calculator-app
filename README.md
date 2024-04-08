@@ -1,8 +1,20 @@
-# React + Vite
+# Calculator App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un proyecto de una calculadora simple desarrollada en React. Utiliza el hook useReducer de React para manejar el estado de la calculadora y la funcionalidad de las operaciones matemáticas. Además, se utiliza localStorage para almacenar el tema deseado por el usuario.
 
-Currently, two official plugins are available:
+## Tecnologías utilizadas
+- React
+- React Hooks (useReducer)
+- Tailwind CSS
+- localStorage
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Instalación
+- Clona este repositorio.
+- Entra al directorio del proyecto: 
+  `cd calculadora-react`
+- Instala las dependencias: 
+  `npm install`
+- Inicia la aplicación: `npm run dev`
+
+## Autor
+[Daniel Vásquez](https://www.linkedin.com/in/daniel-vasquez-nepomuceno/)
